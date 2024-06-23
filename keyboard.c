@@ -11,7 +11,7 @@ void main (void){
     int frequency;
     int time = 1000;
 
-    while(1){
+    while(note!'q'){
         printf(
             "--------------------------------------\n"
             "              Welcome to              \n"
@@ -48,5 +48,10 @@ void main (void){
                 break;
 
         }
+        printf(
+            "--------------------------------------\n"
+            "               THE END!               \n"
+            "--------------------------------------\n");
+)
     }
 }
